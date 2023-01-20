@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+
+header {
+  width: 100vw;
+  height: auto;
+  background-color: #a4b9eb;
+}
+
+nav .navone {
+  width: 100vw;
+  height: 3vh;
+  background: #cfd0d3;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+nav .navtwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .navthree {
+  width: 100vw;
+  height: 5vh;
+  background-color: #cfd0d3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  padding: 20px;
+  color: white;
+  font-size: 3em;
+}
+
+nav .navthree .menu a {
+  font-family: "Caveat", cursive;
+  text-decoration: none;
+  color: #212632;
+  margin: 5px 25px;
+  padding: 5px 10px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+nav .menu a:hover {
+  height: auto;
+  background-color: #212632;
+  color: white;
+  border-radius: 20px;
+}
+nav .menu a:last-child {
+  background-color: #212632;
+  color: white;
+  border-radius: 20px;
+}
